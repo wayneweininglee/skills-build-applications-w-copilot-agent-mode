@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add background and text colors */
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+}
+
+/* Style the navigation menu */
+.navbar {
+  background-color: #007bff; /* Bootstrap primary color */
+}
+.navbar a {
+  color: white !important;
+}
+.navbar a:hover {
+  color: #ffdd57 !important; /* Yellow hover color */
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff; /* Bootstrap primary color */
+}
+
+/* Style tables */
+.table {
+  background-color: #ffffff; /* White background */
+  border: 1px solid #dee2e6; /* Light border */
+}
+.table th {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+}
+.table td {
+  color: #333;
+}
+
+/* Style buttons */
+.btn {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+}
+.btn:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+
+/* Style links */
+a {
+  color: #007bff;
+}
+a:hover {
+  color: #0056b3;
+}
+
+/* Add logo styling */
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Add favicon styling */
+.favicon {
+  width: 32px;
+  height: 32px;
+}
